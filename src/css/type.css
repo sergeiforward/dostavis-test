@@ -1,0 +1,73 @@
+/*=========================================
+
+** Типографика				/type.css
+
+* Подключаем шрифты
+* Заголовки
+* Параграф
+* Списки
+
+*/
+
+/*-----------------------------------------
+[ * Подключаем шрифты ]
+------------------------------------------*/
+body {
+	font-family: $base-font-family, $secondary-font-family, sans-serif;
+}
+
+
+/*-----------------------------------------
+[ * Заголовки ]
+------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h1 {
+	font-size: $base-h1-font-size;
+	line-height: $base-h1-line-height;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: $base-h2-font-size;
+	line-height: $base-h2-line-height;
+}
+
+h3 {
+	font-size: $base-h3-font-size;
+	line-height: $base-h3-line-height;
+}
+
+
+/*-----------------------------------------
+[ * Параграф ]
+------------------------------------------*/
+p {
+	font-size: $base-p-font-size;
+	line-height: $base-p-line-height;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+/*-----------------------------------------
+[ * Списки ]
+------------------------------------------*/
+ul {
+	display: block;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+

@@ -1,0 +1,121 @@
+/*=========================================
+
+** Раскладка					/layout.css
+
+* Враппер						/.MainWraper
+* Контент						/.Content
+* Футер							/.Footer
+
+*/
+
+/*-----------------------------------------
+[ * Враппер						/.MainWraper ]
+------------------------------------------*/
+.MainWrapper {
+	display: block;
+	position: relative;
+
+	width: $main-wrapper-lg-width;
+
+	margin: 0 auto;
+
+	border-radius: $main-wrapper-border-radius;
+	border: $main-wrapper-border-color solid 1px;
+
+	box-shadow: #b3b3b3 0 3px 8px;
+
+	background-color: $main-wrapper-bg-color;
+}
+
+/*-----------------------------------------
+[ * Контент						/.Content ]
+------------------------------------------*/
+.Content {
+	padding: 27px $content-horizontal-padding 0px;
+}
+
+/*-----------------------------------------
+[ * Футер						/.Footer ]
+------------------------------------------*/
+.Footer {
+	padding: 0 $footer-horizontal-padding $footer-vertical-padding;
+}
+
+
+
+
+/* ==========================================================================
+   Адаптивность
+   ========================================================================== */
+
+/* I. Смартфон
+========================================================================== */
+@media (max-width: $adaptive-mobile-top-edge) {
+	
+	/*-----------------------------------------
+	[ * Враппер						/.MainWraper ]
+	------------------------------------------*/
+	.MainWrapper {
+
+		width: $main-wrapper-xs-width;
+
+		margin: 0 auto;
+
+		border-radius: 0px;
+		border: $main-wrapper-border-color solid 1px;
+
+		box-shadow: #b3b3b3 0 3px 8px;
+
+		background-color: $main-wrapper-bg-color;
+	}
+
+	/*-----------------------------------------
+	[ * Контент						/.Content ]
+	------------------------------------------*/
+	.Content {
+		padding: 27px $content-horizontal-padding-xs 0px;
+	}
+
+	/*-----------------------------------------
+	[ * Футер						/.Footer ]
+	------------------------------------------*/
+	.Footer {
+		padding: 0 $footer-horizontal-padding-xs $footer-vertical-padding;
+	}
+	
+}
+
+/* II. Планшет
+========================================================================== */
+@media (min-width: $adaptive-tablet-bottom-edge) and (max-width: $adaptive-tablet-top-edge) {
+
+	/*-----------------------------------------
+	[ * Враппер						/.MainWraper ]
+	------------------------------------------*/
+	.MainWrapper {
+		width: 95%;
+	}
+
+	/*-----------------------------------------
+	[ * Контент						/.Content ]
+	------------------------------------------*/
+	.Content {
+		padding: 27px $content-horizontal-padding-sm 0px;
+	}
+
+	/*-----------------------------------------
+	[ * Футер						/.Footer ]
+	------------------------------------------*/
+	.Footer {
+		padding: 0 $footer-horizontal-padding-sm $footer-vertical-padding;
+	}
+
+}
+
+/* IV. Десктоп
+========================================================================== */
+@media (min-width: $adaptive-desktop-bottom-edge) {
+
+	
+}
+

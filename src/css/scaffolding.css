@@ -1,0 +1,68 @@
+/*=========================================
+
+** Типографика				/scaffolding.css
+
+* Основное
+
+*/
+
+/*-----------------------------------------
+[ * Основное ]
+------------------------------------------*/
+html,
+body {
+	display: block;
+	width: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	padding: 11px 0 12px;
+	height: auto;
+	min-height: 100%;
+
+	color: $base-font-color;
+
+	background-color: $base-bg-color;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+	color: $base-link-color;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Адаптивность
+   ========================================================================== */
+
+/* I. Смартфон
+========================================================================== */
+@media (max-width: $adaptive-mobile-top-edge) {
+
+	/*-----------------------------------------
+	[ * Основное ]
+	------------------------------------------*/
+	body {
+		padding: 0px;
+	}
+	
+}

@@ -1,0 +1,179 @@
+/*=========================================
+
+** Основные модули				/modules.css
+
+* Баннер в хедере				/.Header_Banner
+* Список в контенте				/.Content_Row
+* Как мы работаем				/.HowWeWork
+
+*/
+
+/*-----------------------------------------
+[ * Баннер в хедере				/.Header_Banner ]
+------------------------------------------*/
+.Header_Banner {
+	display: block;
+	position: relative;
+	background-color: blue;
+	line-height: $header-banner-line-height;
+
+	border-top-left-radius: $main-wrapper-border-radius;
+	border-top-right-radius: $main-wrapper-border-radius;
+
+	margin: -1px -1px 0px;
+
+	background-color: #d44f68;
+	background: inline('../img/banner-bg.jpg')  right top no-repeat;
+	background-size: cover;
+
+}
+
+.Header_Banner_title {
+	padding: 29px 10px;
+	text-shadow: #333 3px 3px 3px;
+}
+
+.Header_Disclaimer {
+	background-color: $header-disclaimer-bg-color;
+	padding: 10px 10px
+}
+
+/*-----------------------------------------
+[ * Список в контенте				/.Content_Row ]
+------------------------------------------*/
+.WhyDosta {
+	padding: 13px 0 20px;
+	
+}
+
+.Content_Row {
+	border-bottom: $content-list-border-color solid 1px;
+	padding: $content-list-row-vertical-padding 0px;
+
+	&:first-child {
+		border-top: $content-list-border-color solid 1px;
+	}
+}
+
+/*-----------------------------------------
+[ * Как мы работаем				/.HowWeWork ]
+------------------------------------------*/
+.HowWeWork_title {
+	margin-bottom: 8px;
+}
+
+.HowWeWork {
+	
+}
+
+.HowWeWork_item {
+	position: relative;
+}
+
+.m_with_arrow.HowWeWork_item:after {
+	display: block;
+	position: absolute;
+	width: 41px;
+	height: 41px;
+	content: '';
+	top: 19px;
+	right: -20.5px;
+
+	background: inline('../img/arrow.svg') center center no-repeat;
+}
+
+.lt-ie9 .m_with_arrow.HowWeWork_item:after {
+	background: inline('../img/arrow.png') center center no-repeat;	
+}
+
+.HowWeWork_item_icon_wr {
+	display: block;
+	margin-bottom: 17px;
+}
+
+.HowWeWork_item_icon {
+	display: block;
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 80px;
+
+}
+
+.m_check.HowWeWork_item_icon {
+	background-image: inline('../img/check.svg');	
+}
+
+.lt-ie9 .m_check.HowWeWork_item_icon {
+	background-image: inline('../img/check.png');	
+}
+
+.m_compas.HowWeWork_item_icon {
+	background-image: inline('../img/compass.svg');	
+}
+
+.lt-ie9 .m_compas.HowWeWork_item_icon {
+	background-image: inline('../img/compass.png');	
+}
+
+.m_down.HowWeWork_item_icon {
+	background-image: inline('../img/down.svg');	
+}
+
+.lt-ie9 .m_down.HowWeWork_item_icon {
+	background-image: inline('../img/down.png');	
+}
+
+.m_like.HowWeWork_item_icon {
+	background-image: inline('../img/like.svg');	
+}
+
+.lt-ie9 .m_like.HowWeWork_item_icon {
+	background-image: inline('../img/like.png');	
+}
+
+.HowWeWork_item_desc {
+
+}
+
+/* ==========================================================================
+   Адаптивность
+   ========================================================================== */
+
+/* I. Смартфон
+========================================================================== */
+@media (max-width: $adaptive-mobile-top-edge) {
+
+	/*-----------------------------------------
+	[ * Баннер в хедере				/.Header_Banner ]
+	------------------------------------------*/
+	.Header_Banner {
+		
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+	}
+
+	.Header_Banner_title {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	
+	.m_with_arrow.HowWeWork_item:after {
+		display: block;
+		position: relative;
+		width: 41px;
+		height: 41px;
+		margin: 15px auto;
+		content: '';
+		top: auto;
+		right: auto;
+
+		background: inline('../img/arrow.svg') center center no-repeat;
+		transform: rotate(90deg);
+	}
+
+	.lt-ie9	.m_with_arrow.HowWeWork_item:after {
+		background: inline('../img/arrow-down.png') center center no-repeat;
+	}
+	
+}

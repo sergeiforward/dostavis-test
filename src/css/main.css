@@ -1,0 +1,21 @@
+/*=========================================
+
+** Стартер					/main.css
+
+* Импорт основных стилей
+
+*/
+
+/*-----------------------------------------
+[ * Импорт основных стилей ]
+------------------------------------------*/
+
+@import "../libs/normalize.css/normalize.css";
+@import "variables.css";
+@import "mixins.css";
+@import "helpers.css";
+@import "type.css";
+@import "scaffolding.css";
+@import "layout.css";
+@import "modules.css";
+@import "grid.css";

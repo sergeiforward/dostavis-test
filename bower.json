@@ -1,0 +1,21 @@
+{
+  "name": "Dostavista",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sergeiforward/dostavis-test",
+  "authors": [
+    "Sergei Gushchin <YOUR EMAIL ADDRESSsergeigushin.fw@gmail.com>"
+  ],
+  "description": "Test for Dostavista",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3"
+  }
+}

@@ -1,0 +1,104 @@
+/*=========================================
+
+** Переменные				/variables.css
+
+* Скаффолдинг
+* Лэйаут
+* Типографика
+* Модули
+* Иконки
+
+
+*/
+
+/*-----------------------------------------
+[ * Скаффолдинг ]
+------------------------------------------*/
+$base-bg-color:						#fafafa;
+$base-text-color:					#333333;
+
+$base-link-color:					#cc3885;
+
+$base-font-size:					17px;
+$base-line-height:					20px;
+
+
+/*-----------------------------------------
+[ * Лэйаут ]
+------------------------------------------*/
+$main-wrapper-lg-width:				940px;
+$main-wrapper-sm-width:				90%;
+$main-wrapper-xs-width:				100%;
+
+$main-wrapper-sm-width:				100%;
+
+$main-wrapper-border-radius:		3px;
+$main-wrapper-border-color:			#b3b3b3;
+
+$main-wrapper-bg-color:				#fff;
+
+$header-height:						0;
+
+$content-horizontal-padding:		46px;
+$content-horizontal-padding-sm:		30px;
+$content-horizontal-padding-xs:		10px;
+
+
+/*-----------------------------------------
+[ * Типографика ]
+------------------------------------------*/
+$base-font-family:					'PT Sans';
+$secondary-font-family:				'Arial';
+
+$base-font-color:					#333333;
+
+$base-h1-font-size:					36px;
+$base-h1-line-height:				46px;
+
+$base-h2-font-size:					21px;
+$base-h2-line-height:				28px;
+
+$base-h3-font-size:					17px;
+$base-h3-line-height:				20px;
+
+$base-p-font-size:					17px;
+$base-p-line-height:				20px;
+
+$base-small-text-font-size:			15px;
+$base-small-text-line-height:		19px;
+
+
+/*-----------------------------------------
+[ * Модули ]
+------------------------------------------*/
+
+/* Баннер в хедере */
+$header-banner-line-height:			151px;
+
+$header-disclaimer-bg-color:		#f8f5ed;
+
+/* Список в контенте */
+$content-list-border-color:			#eeeeee;
+$content-list-row-vertical-padding:	20px;
+
+/* Футер */
+$footer-horizontal-padding:			64px;
+$footer-horizontal-padding-sm:		35px;
+$footer-horizontal-padding-xs:		20px;
+
+$footer-vertical-padding:			40px;
+$footer-vertical-bottom-padding:	57px;
+
+/* Блоки в футере */
+$hww-font-size:						15px;
+$hww-line-height:					19px;
+
+
+/*-----------------------------------------
+[ * Адаптивность ]
+------------------------------------------*/
+$adaptive-mobile-top-edge:			767px;
+$adaptive-tablet-bottom-edge:		768px;
+$adaptive-tablet-top-edge:			991px;
+$adaptive-desktop-bottom-edge:		992px;
+

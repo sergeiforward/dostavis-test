@@ -1,0 +1,27 @@
+/*=========================================
+
+** Хелпер						/helpers.css
+
+* Текст
+
+*/
+
+/*-----------------------------------------
+[ * Текст ]
+------------------------------------------*/
+.h_text_white {
+	color: #fff;
+}
+
+.h_text_center {
+	text-align: center;
+}
+
+.h_text_small {
+	font-size: $base-small-text-font-size;
+	line-height: $base-small-text-line-height;
+}
+
+.h_text_gapping {
+	margin-bottom: 30px;
+}
